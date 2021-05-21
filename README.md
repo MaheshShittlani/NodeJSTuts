@@ -2,5 +2,9 @@
 # Node JS Tutorial Series
 
 ***
-**  Lesson-8 | LTS v/s Current Version
-*   
+**  Lesson-9 | Node REPL
+*       Node Shell - REPL
+*       R - READ
+*       E - Eval
+*       P - Print
+*       L - Loop
