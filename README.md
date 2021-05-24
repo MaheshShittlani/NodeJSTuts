@@ -2,24 +2,17 @@
 # Node JS Tutorial Series
 
 ***
-**  Lesson-13 | Node JS V/S Javascript
+**  Lesson-14 | Frontend V/S Backend
 * 
 *******************************************************
-*       Javascript                              NodeJS
+*       Frontend                                Backend
 *******************************************************
-*       window                                  global
-*       document                                process
-*       history                                 module
-*       location                                __filename
-*       navigator                               require()
+*       HTML                                    Node JS
+*       CSS                                     Python
+*       JS                                      Golang, Java
 ****************************************************************
-*****           Complete list of globals                ********
-*****************************************************************
-*  View list of globals in nodejs official document.
+*****           File types Used                             ****
+****************************************************************
+*       HTML,CSS,JS                             JSON,XML,TXT
 *
-*****************************************************************
-**              Browser Compatible classes                      *
-*****************************************************************
-1. URL
-
 
