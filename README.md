@@ -33,4 +33,4 @@
 *   2. `libuv` is a open source library or implementation of native code for various client language *       like `java`, `node js`, `python` and many more. `node js`  is a most popular client language  *       which uses libuv library.
 *   3. `livuv` have different implementation for `windows` and `unix` based environment. 
 *   4. `unix` directory implementation in the `libuv` docs covers the implementation of unix based `OS`.
-*   5. `windows` directory implementation in the `libuv` docs covers the implementation of unix based `OS`.
+*   5. `windows` directory implementation in the `libuv` docs covers the implementation of unix based *       `OS`.
