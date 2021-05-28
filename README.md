@@ -23,3 +23,14 @@
 *   1. As node js is open source runtime and it is available on https://github.com/nodejs/node
 *   2. As we know nodejs runtime has some node js api which is emplemented in `lib` directory in the *      above repository. In the lib directory each module is implemented in its seperate file.
 *   3. Even some api are uses the native C/C++ code which is implemented by node js binding. All the    *      node js binding modules are implemented in the `src` directory in the above repository. Which *      further calls `libuv` implementation. All the libuv implemented function are prefixed with uv_
+
+--------------------------------------------------------------------------------------------------------
+
+***
+**  Lesson-17 | How libuv works?
+*
+*   1. As we learn that node js uses `libuv` library for the native implementation of code.
+*   2. `libuv` is a open source library or implementation of native code for various client language *       like `java`, `node js`, `python` and many more. `node js`  is a most popular client language  *       which uses libuv library.
+*   3. `livuv` have different implementation for `windows` and `unix` based environment. 
+*   4. `unix` directory implementation in the `libuv` docs covers the implementation of unix based `OS`.
+*   5. `windows` directory implementation in the `libuv` docs covers the implementation of unix based `OS`.
