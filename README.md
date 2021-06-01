@@ -2,7 +2,7 @@
 # Node JS Tutorial Series
 
 ***
-**  Lesson-25 | The Callback Queue
+**  Lesson-26 | Event Loop phases
  
 *  1. As we have learnt that as soon as node js receive request to to executes an asynchronus function *     it is exeucted by `event loop` by executing the callback.
 *  2. Each asynchronus function executes callback once the job is done.
