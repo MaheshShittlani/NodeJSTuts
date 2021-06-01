@@ -2,26 +2,12 @@
 # Node JS Tutorial Series
 
 ***
-**  Lesson-26 | Event Loop phases
- 
-*  1. As we have learnt that as soon as node js receive request to to executes an asynchronus function *     it is exeucted by `event loop` by executing the callback.
-*  2. Each asynchronus function executes callback once the job is done.
-*  3. So as soon as asynchronus function exection completes, callback is pushed into callback queue/*     event queue or job queue and executed as gets chance to execute by CPU.
-*  4. Tf we go deeper into the `event loop` working, we found that there are multiple callback queues or *     we can say event loop phases.
-*  5. Event Loop phases
-*       5.1 Timers
-*       5.2 I/O Callbacks
-*       5.3 setImmediate
-*       5.4 Close Callback
-*  6. Each of the `event phase` has its own queue.
-*  7. Before moving ahead lets see the concept of `Timers` 
-        7.1 setTimeout - Executes the callback after a specified time.
-        7.2 setInterval - Executes a callback after each interval of time specified.
-        7.3 setImmediate - Executes a callback immediately.
-    8. In the each cycle of event loop, it passes through the phases int the following order.
-        8.1 Timers
-        8.2 I/O Callbacks
-        8.3 setImmediate
-        8.4 Close callback
-    9. As one cycle of `event loop` finished, the next cycle will be executed and all the phases will 
-       be executed in the above order again.
+**  Lesson-27 | Node JS Ecosystem
+
+1. Why node js is so popular even the php and python are running web languages.
+2. So php like language need web server like apache or nginx to process the web request.
+3. So in php, each client request is sent to the server and server create a new seperate thread to       process each thread. 
+4. For heavy loading website Http server need more thread that cause failure most of the time.
+5. In node js, As each request is send to node js runtime and handled by v8 engine, v8 engine deligate request to the livuv which intern process the request by using a thread from the thread pool or directly interacting with OS.
+6. So node js easily handles a heavy loading.
+7. The most importantly, node js prvides most efficient way to handles the asynchronus request in background.
