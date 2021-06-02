@@ -2,17 +2,13 @@
 # Node JS Tutorial Series
 
 ***
-**  Lesson-28 | What Node JS is Good At?
+**  Lesson-29 | What is Observer Pattern?
 
-Not Good For...
--------------------
-    1. Heavy Data processing
-    2. Video Processing
-    3. Machine Learning
-
-Good For...
--------------------------
-    1. Heavy I/O Processing
-    2. Good For Servers
-    3. Good for Services communication available on the web like email
-    4. Node Js working as glue used to integrate together multiple services on the web.
+1. Event driven model is genearlly uses a design pattern called observer pattern.
+2. observer pattern can be understand by an example...
+3. Suppose there is, a celebrity who is a car racer, is a subject we want to observe.
+4. Celebrity has multiple fans who are interested in any events like about the race, race events and     recent wins, will subscribe the celebrity.
+5. Any event whenever occured all the subscribe of the event gets notified.
+6. There will be one to many relationship in subject and observer.
+7. Use cases:
+    Any resource creation, updation and deletion generates and event.
