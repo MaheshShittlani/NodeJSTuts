@@ -10,6 +10,9 @@
 4. As per the official node docs, 
     Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called.
 5. All objects that emit events are instances of the EventEmitter class. These objects expose an eventEmitter.on() function that allows one or more functions to be attached to named events emitted by the object. Typically, event names are camel-cased strings but any valid JavaScript property key can be used.
-6. See the example in dev branches.
+6. See the example event1.js.
+7. Many node module uses the event emitter to emit the events. Example process module have events like beforeExit, exit, disconnect and mnay more. See example event2.js
+8. we can pass the argument to the listener see example event3.js
+
 
 
