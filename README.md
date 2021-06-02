@@ -2,17 +2,13 @@
 # Node JS Tutorial Series
 
 ***
-**  Lesson-30 | Observer Pattern?
+**  Lesson-31 | Module
 
-1. In node js as and event is fired, event loop executes the related callback function.
-2. Node js has a module to manually work with events and listeners is call event module.
-3. See the documentation of events module in https://nodejs.org/dist/latest-v14.x/docs/api/events.html#events_events
-4. As per the official node docs, 
-    Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called.
-5. All objects that emit events are instances of the EventEmitter class. These objects expose an eventEmitter.on() function that allows one or more functions to be attached to named events emitted by the object. Typically, event names are camel-cased strings but any valid JavaScript property key can be used.
-6. See the example event1.js.
-7. Many node module uses the event emitter to emit the events. Example process module have events like beforeExit, exit, disconnect and mnay more. See example event2.js
-8. we can pass the argument to the listener see example event3.js
-
-
-
+1. While we are doing developement, we are not able to create everything from scratch. we user pre built thing to fultil our purpose.
+2. For example, if we are going to develop a website and a web server is required to run the website, then we are not interested to create the web server.
+3. Node js comes with various pre-built modules which defines a specific functionality.
+4. To use a pre-built module we need to use a pre-built function call `require()`.
+5. `require()` is not a part of vanilla JS.
+6. How to require
+    const http = require('http');
+7. Require a module and assign it to a variable, which becomes an object or method whatever module returns and we can use it in our program.
